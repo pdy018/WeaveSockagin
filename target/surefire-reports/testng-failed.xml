@@ -6,7 +6,6 @@
       <class name="test.java.CheckOutWeaveSocksTest">
         <methods>
           <include name="CheckOutTestAlternativeFlow1"/>
-          <include name="CheckOutTestAlternativeFlow2"/>
           <include name="CheckOutTestBasicFlow"/>
           <include name="afterclass"/>
           <include name="setUp"/>

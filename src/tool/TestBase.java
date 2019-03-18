@@ -22,9 +22,12 @@ public class TestBase {
     }
  
     @BeforeClass
-    public void setUp(){
-    	System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"//BrowserDrivers//chromedriver.exe");
-        driver = new ChromeDriver();
+    public void setUp() throws MalformedURLException{
+  //  	System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"//BrowserDrivers//chromedriver.exe");
+ //       driver = new ChromeDriver();
+        DesiredCapabilities capabilities = DesiredCapabilities.chrome();
+        capabilities.setPlatform(Platform.LINUX);
+        driver = new RemoteWebDriver(new URL("https://selenium.devops.sparkflow.top/wd/hub"), capabilities);
       //  driver.manage().window().maximize();
       //  driver.navigate().to("http://www.baidu.com");      
     }
