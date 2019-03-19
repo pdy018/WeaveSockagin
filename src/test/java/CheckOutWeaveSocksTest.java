@@ -48,7 +48,7 @@ import tool.TestBase;
 //        driver = new RemoteWebDriver(new URL("https://selenium.devops.sparkflow.top/wd/hub"), capabilities);
 //    }
 	    
-	    @Test(priority=0)
+	    @Test(enabled = false)
 	    public void CheckOutTestAlternativeFlow1() throws InterruptedException {
 	    	 driver.navigate().to("http://shop.devops.sparkflow.top");
 	         Thread.sleep(6000);
@@ -71,7 +71,7 @@ import tool.TestBase;
 	       
 	    } 
 	
-	    @Test(priority=1)
+	    @Test(enabled = false)
 	    public void CheckOutTestAlternativeFlow2() throws InterruptedException {
 	    	
 	        driver.navigate().to("http://shop.devops.sparkflow.top");
@@ -104,7 +104,7 @@ import tool.TestBase;
 			
 	    }
 	  
-	    @Test(priority=2)
+	    @Test(enabled = false)
 	    public void CheckOutTestBasicFlow() throws InterruptedException {
 	    	 driver.navigate().to("http://shop.devops.sparkflow.top");
 	         Thread.sleep(6000);
