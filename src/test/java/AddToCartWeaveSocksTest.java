@@ -53,10 +53,10 @@ public class AddToCartWeaveSocksTest extends TestBase{
 //        driver = new RemoteWebDriver(new URL("https://selenium.devops.sparkflow.top/wd/hub"), capabilities);
 //    }
 
-    @AfterTest
-    public void afterTest() {
-        driver.quit();
-    }
+//     @AfterTest
+//     public void afterTest() {
+//         driver.quit();
+//     }
 
 
 
