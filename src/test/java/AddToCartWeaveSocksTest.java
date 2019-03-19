@@ -61,7 +61,7 @@ public class AddToCartWeaveSocksTest extends TestBase{
 
 
     
-    @Test
+    @Test(enabled = false)
     public void AddToCartBasicFlow() throws InterruptedException {
     	
         driver.navigate().to("http://shop.devops.sparkflow.top");
