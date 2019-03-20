@@ -82,7 +82,7 @@ package tool;
 	 
 	        // while creating test
 	        extent
-	            .createTest("zhangjun")
+	            .createTest("paul")
 	            .assignAuthor("admin")
 	            .pass("details");
 	         
