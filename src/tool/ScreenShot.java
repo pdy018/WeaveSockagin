@@ -39,10 +39,10 @@ public class ScreenShot {
 	            dir.mkdirs();
 	        String screenPath = dir.getAbsolutePath() + "/" + screenName;
 	        this.takeScreenshot(screenPath);    
-	       // Reporter.log("<a href=./img/" + screenName + " target=_blank>Failed Screen Shot</a>", true);
+	       Reporter.log("<a href=./img/" + screenName + " target=_blank>Failed Screen Shot</a>", true);
 	         
 	        
-	       // Reporter.log("<img src=./img/" + screenName + " /img>", true);
+	       Reporter.log("<img src=./img/" + screenName + " /img>", true);
 	    }
 	    
 	   
